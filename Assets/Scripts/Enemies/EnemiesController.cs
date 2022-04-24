@@ -1,10 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemiesController : MonoBehaviour
 {
-    public bool isFall = false;
     private Rigidbody rigid;
     public Rigidbody Rigid
     {
@@ -17,20 +18,9 @@ public class EnemiesController : MonoBehaviour
             return rigid;
         }
     }
-
-
     private void Start()
     {
         rigid = GetComponent<Rigidbody>();
     }
-
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            GameManager.Instance.isFail = true;
-            isFall = true;
-        }
-    }
+    
 }

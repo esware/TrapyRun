@@ -19,7 +19,7 @@ public class CameraController : MonoBehaviour
         Vector3 targetPos = distance + controller.transform.position;
         transform.position = Vector3.Lerp(transform.position, targetPos, smooth*Time.deltaTime);
 
-        if (GameManager.Instance.isWin)
+        if (GameManager.Instance.IsWin)
         {
             confetti.gameObject.SetActive(true);
         }

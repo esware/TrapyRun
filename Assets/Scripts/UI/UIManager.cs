@@ -11,8 +11,7 @@ public class UIManager : MonoBehaviour ,IUIManager
     [SerializeField] private GameObject startPanel = null;
     [SerializeField] private GameObject EndGamePanel = null;
     [SerializeField] private Text levelText = null;
-    public static int sceneCount = 0;
-    static int level = 1;
+    private static int level = 1;
 
     private void Start()
     {
@@ -35,28 +34,20 @@ public class UIManager : MonoBehaviour ,IUIManager
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(++sceneCount);
         level++;
     }
 
     void ActivePanel()
     {
-        if (GameManager.Instance.isFail)
+        if (GameManager.Instance.IsFail)
         {
             gameOverPanel.SetActive(true);
         }
-        else if (GameManager.Instance.isWin)
+        else if (GameManager.Instance.IsWin)
         {
-            if(sceneCount != 2)
-            {
-                finishPanel.SetActive(true);
-            }
-            else if(sceneCount ==2)
-            {
-                EndGamePanel.SetActive(true);
-            }
+            finishPanel.SetActive(true);
         }
-        else if (GameManager.Instance.isStart)
+        else if (GameManager.Instance.IsStart)
         {
             startPanel.SetActive(false);
         }

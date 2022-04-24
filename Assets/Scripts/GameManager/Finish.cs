@@ -6,9 +6,9 @@ public class Finish : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.CompareTag("Player"))
         {
-            GameManager.Instance.isWin = true;
+            GameManager.Instance.IsWin = true;
         }
     }
 }

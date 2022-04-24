@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2986421258865104388
 Transform:
@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f2cd3713711f8478762325da253b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 1
+  spawnInterval: 0.5
   objectPool: {fileID: 0}
-  spawnedObjCounter: 0
+  spawnCount: 30
+  selectEnemy: 1
+  spawnedEnemies: 0
