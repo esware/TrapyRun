@@ -334,7 +334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778536445500762538, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: enemyCount
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2778536445500762538, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: objectPool
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446419466050, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: enemyCount
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446419466050, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: objectPool
@@ -366,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446419466077, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -37.8
+      value: -42.8
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446805064262, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -374,7 +374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446805064263, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: enemyCount
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2778536446805064263, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: objectPool
@@ -649,7 +649,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5466427658607397916, guid: c9965a5068ca7d547b185b7538e09d4c, type: 3}
       propertyPath: Speed
-      value: 16
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5466427658607397916, guid: c9965a5068ca7d547b185b7538e09d4c, type: 3}
       propertyPath: collider

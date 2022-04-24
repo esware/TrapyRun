@@ -11,7 +11,6 @@ namespace FSM.States.CharacterStates
         public override void Enter()
         {
             sm.Rigid.useGravity = false;
-            sm.collider.isTrigger = true;
         }
         public override void UpdatePhysics()
         {

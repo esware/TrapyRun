@@ -54,7 +54,7 @@ namespace FSM
         {
             if (other.gameObject.CompareTag("Obstacle"))
             {
-                if (GetComponent<NavMeshAgent>())
+                if (enemyType == EnemyType.SMART)
                 {
                     agent.enabled = false;
                 }

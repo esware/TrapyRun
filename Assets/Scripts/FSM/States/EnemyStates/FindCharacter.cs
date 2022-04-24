@@ -11,7 +11,7 @@ namespace FSM.States.EnemyStates
 
         public override void Enter()
         {
-            if (enemySm.agent.enabled)
+            if (enemySm.enemyType == EnemySM.EnemyType.SMART)
             {
                 enemySm.agent.enabled = false;
             }

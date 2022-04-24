@@ -9,6 +9,8 @@ public class Finish : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             GameManager.Instance.IsWin = true;
+            other.gameObject.GetComponent<Collider>().isTrigger = true;
+            UIManager.level++;
         }
     }
 }
