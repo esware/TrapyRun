@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: bbbcd551076325545ba102ba8c308520, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.428
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -524,11 +524,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1728283483126905460, guid: 116a9b9d21db3934f8cec0bdc86f5c6c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9396927
+      value: 0.9659258
       objectReference: {fileID: 0}
     - target: {fileID: 1728283483126905460, guid: 116a9b9d21db3934f8cec0bdc86f5c6c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.3420201
+      value: 0.2588191
       objectReference: {fileID: 0}
     - target: {fileID: 1728283483126905460, guid: 116a9b9d21db3934f8cec0bdc86f5c6c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -540,7 +540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1728283483126905460, guid: 116a9b9d21db3934f8cec0bdc86f5c6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1728283483126905460, guid: 116a9b9d21db3934f8cec0bdc86f5c6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

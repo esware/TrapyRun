@@ -432,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level1
       objectReference: {fileID: 0}
+    - target: {fileID: 2778536446990442869, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2778536447071245767, guid: e3b223883f8a9b042b77d6e11efdd7ec, type: 3}
       propertyPath: m_TagString
       value: Obstacle
