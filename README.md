@@ -1,4 +1,4 @@
-# TrapyRunClone
+# TrapyRun
 Trapy run game is a runner game.In my game, we try to save our basic mechanical character by escaping from the enemies coming after us, the place where our character runs collapses after a while, using this feature we try to pull our enemies to the collapsed places.
 
 
